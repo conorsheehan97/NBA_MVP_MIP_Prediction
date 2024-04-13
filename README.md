@@ -1,7 +1,7 @@
 # NBA_MVP_MIP_Prediction
 In this project, we attempt to predict the NBA MVP and Most Improved Player using a combination of Random Forest Regression and Statistical Analysis. 
 
-This work involves using MVP Share voting distributions over the last 10 years (obtained from https://www.basketball-reference.com/), which was sotred in a centralised SQLLite Database for ease of access. This data was used to create 10 Regression Decision Trees, and then ensembling their cumulative Share votes together (Random Forest) to determine who this seasons MVP & DPOY were. 
+This work involves using MVP Share voting distributions over the last 10 years (obtained from https://www.basketball-reference.com/), which was sotred in a centralised SQLLite Database for ease of access. This data was used to create 10 Regression Decision Trees, and then ensembling their cumulative Share votes together (Random Forest) to determine who this seasons MVP were. 
 
 An amount of Exploratory Data Analysis was required initially to reduce the dataset, analyse what features correlated most strongly to a high MVP/DPOY share, and use these then on this seasons in-game player data. It was also fun to see what, statistically held the most relevance for MVP voting. A comparison of the top 5 MVP's predicted for this season was then undertaken, and the order of the ranking was then evaluated against the bookmakers favourites. 
 
